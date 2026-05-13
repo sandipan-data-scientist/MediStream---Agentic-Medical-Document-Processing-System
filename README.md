@@ -14,16 +14,11 @@ understands it, looks up the correct medical codes, arranges everything in chron
 and produces a clean, standards-compliant XML file and a formatted Excel workbook. All of this
 happens in seconds, without a human typing anything.
 
-The system is built as a pipeline of intelligent steps, each handled by a specialized AI-powered
-component. Think of it like an assembly line where each station has one job, does it well, and
-hands the result to the next station.
-
-
 ## Who Is This For?
 
 This system is intended for clinical research organizations, pharmacovigilance teams, hospital
-data departments, and clinical trial coordinators who deal with unstructured medical documents
-and need to produce structured, coded outputs in standardized formats.
+data departments, Insurance processing units and clinical trial coordinators who deal with unstructured medical documents
+and need to produce structured, coded outputs in standardized formats. 
 
 You do not need to be a programmer to use MediStream once it is running. You only need a web
 browser and a document to upload.
