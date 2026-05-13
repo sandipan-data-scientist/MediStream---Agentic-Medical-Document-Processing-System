@@ -52,7 +52,7 @@ information that was not actually in the source document. It flags any issues it
 
 ## What You Will Need Before Starting
 
-You need four things before you can run MediStream.
+You need three things before you can run MediStream.
 
 The first is Docker. Docker is a free program that packages software so it runs the same way
 on any computer, regardless of the operating system. Think of it as a self-contained box that
@@ -67,18 +67,13 @@ menu bar.
 The second thing you need is a Gemini API key. This is the key that gives MediStream access to
 Google's Gemini 1.5 Pro language model, which is the AI that reads and understands your
 documents. To get one, go to https://aistudio.google.com, sign in with a Google account, and
-click "Get API key". Copy the key and keep it somewhere safe. It looks like a long string of
-random letters and numbers.
+click "Get API key". Copy the key and keep it somewhere safe. 
 
 The third thing you need is a LangSmith API key. LangSmith is an observability platform that
 records what the AI is doing at each step, which is useful for auditing and debugging. Go to
 https://smith.langchain.com, create a free account, and generate an API key from the settings
 page. This is optional but strongly recommended for any clinical use where audit trails matter.
 
-The fourth thing you need is the MediStream project files. If someone has given you a zip file
-or a folder, that is the project. If it is on GitHub, you can download it by clicking the green
-"Code" button and selecting "Download ZIP". Unzip it and place the folder somewhere easy to
-find, like your Desktop or Documents folder.
 
 
 ## Setting Up the Project Step by Step
